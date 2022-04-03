@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  display: flex;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #FAFAFA;
+}
+
+@font-face {
+  font-family: 'Galano-Regular';
+  src: local('Galano-Regular'), url(./fonts/galanogrotesque-regular.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'Galano-Semibold';
+  src: local('Galano-Semibold'), url(./fonts/galanogrotesque-semibold.otf) format('opentype');
+}

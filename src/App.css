@@ -1,0 +1,289 @@
+
+/* ---- main div ---- */
+.main {
+  height: 328px;
+  width: 100%;
+  background: #146EB4;
+  position: relative;
+}
+
+#header-img {
+  position: absolute;
+  width: 156px;
+  height: 44px;
+  left: 260px;
+  top: 23px;
+}
+
+#signIn-btn {
+  position: absolute;
+  width: 60px;
+  height: 26px;
+  left: 1111px;
+  top: 32px;
+
+
+  font-family: 'Galano-Regular';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  color: #FFFFFF;
+}
+
+
+#topSpan{
+  width: 129px;
+  height: 26px;
+  left: 1227px;
+  top: 32px;
+
+  font-family: 'Galano-Regular';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  color: #146EB4;
+}
+
+
+#top-btn {
+  position: absolute;
+  width: 177px;
+  height: 50px;
+  left: 1203px;
+  top: 20px;
+  background: #FFFFFF;
+  border-radius: 4px;
+}
+
+
+.slogan {
+  position: absolute;
+  padding: 55%;
+  width: 1120px;
+  height: 1500px;
+  left: 275px;
+  top: 134px;
+  background: #FFFFFF;
+  box-shadow: 0px 2px 8px rgba(26, 24, 30, 0.06);
+  border-radius: 8px;
+}
+
+
+#header-slogan {
+  font-family: 'Galano-Regular';
+  font-weight: 800;
+  font-size: 36px;
+  width: 650px;
+  left: 352px;
+  top: 198px;
+}
+
+#slogan-para {
+  font-family: 'Galano-Regular';
+  position: absolute;
+  width: 736px;
+  height: 26px;
+  left: 168px;
+  top: 70px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  color: #4D4D4D;
+}
+
+
+#slogan-text {
+  font-family: 'Galano-Regular';
+  position: absolute;
+  width: 163px;
+  height: 24px;
+  left: 169px;
+  top: 200px;
+  
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #4D4D4D;
+}
+
+/*---------------------------------------*/
+
+#input-box {
+  position: absolute;
+  left: 169px;
+  top: 232px;
+  border-radius: 4px;
+}
+
+#input-text {
+  width: 300px;
+  height: 48px;
+}
+
+
+#sloganSpan{
+  width: 350px;
+  height: 26px;
+  left: 347px;
+  top: 32px;
+
+  font-family: 'Galano-Regular';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 26px;
+  color: #FFFFFF;
+}
+
+
+#slogan-btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px 24px;
+  
+  position: absolute;
+  width: 204px;
+  height: 50px;
+  left: 172px;
+  margin-top: 22%;
+  background: #146EB4;
+  border-radius: 4px;
+}
+
+#divider {
+  position: absolute;
+  width: 736px;
+  height: 1px;
+  left: 172px;
+  margin-top: 35%;
+  background-color: rgba(217, 217, 217,.9);
+  border: none;
+}
+
+/* ------------------ */
+
+
+.features-div {
+  background: #f2f8fb;
+  margin-top: 83%;
+  height: 23rem;
+  position: relative;
+}
+
+.feature-img1 {
+    position: absolute;
+    left: 15rem;
+    margin-top: 8%;
+    width: 110px;
+}
+
+
+.feature-img2 {
+  position: absolute;
+  left: 40%;
+  margin-top: 8%;
+  width: 110px;
+}
+
+
+.feature-img3 {
+  position: absolute;
+  left: 16rem;
+  margin-top: 8%;
+  width: 110px;
+}
+
+.feature-col {
+  position: absolute;
+  text-align: center;
+  font-family: 'Galano-Regular';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #4D4D4D;
+}
+
+/* ----------------------- */
+
+#bottom-text {
+  font-family: 'Galano-Regular';
+  font-weight: 800;
+  font-size: 36px;
+  width: 650px;
+  margin-left: 13rem;
+  margin-top: 5%
+
+}
+
+
+.bottom-header {
+  margin-top: 5%;
+  font-family: 'Galano-Regular';
+  font-size: large;
+}
+
+.bottom-item-header{
+  font-family: 'Galano-Regular';
+}
+
+/* -------------- */
+
+
+.footer {
+  margin-top: 8%;
+  height: 320px;
+  width: 100%;
+  background: #1A181E;
+  position: relative;
+}
+
+
+#footer-img {
+  position: absolute;
+  width: 156px;
+  height: 44px;
+  left: 260px;
+  margin-top: 5.25%;
+}
+
+.footer-text {
+  color: #FFFFFF;
+  font-family: 'Galano-Regular';
+  font-weight: 400;
+  font-size: 18px;
+  left: 20%;
+}
+
+.footer-first {
+  margin-top: 5.25%;
+}
+
+.footer-second {
+  margin-top: -1%;
+}
+
+#footer-hr {
+  margin-top: 3.25%;
+  width: 1120px;
+  height: 1px;
+  background-color: rgba(217, 217, 217,.7);
+  opacity: .55;
+  border: none;
+}
+
+.footer-end {
+  color: white;
+  font-size: 16px;
+  font-family: 'Galano-Regular';
+  left: 260px;
+}
+
+.footer-flag {
+  color: white;
+  font-family: 'Galano-Regular';
+  font-size: 16px;
+  margin-left: 66%; 
+}
